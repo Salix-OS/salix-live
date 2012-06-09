@@ -4,8 +4,8 @@ ssh
 alias
 avahi
 gdm
-user-settings-xfce
-dmrc-xfce
+user-settings-lxde
+dmrc-lxde
 xscreensaver-disable
 firefox-profile
 firefox-default
