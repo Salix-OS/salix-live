@@ -2,5 +2,6 @@ kernel-headers
 ndiswrapper
 rootuser-settings
 user-settings
-user-settings-xfce
+user-settings-fluxbox
 zzz-settings
+zzz-settings-fluxbox

@@ -8,7 +8,6 @@ grub2
 gtkmm
 isomaster
 libdaemon
-libgcrypt
 libsigc++
 libssh
 liveclone
