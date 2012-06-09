@@ -1,7 +1,7 @@
 # vim: set syn=sh:
 if [ -z "$DISTRO" ]; then
   DISTRO=salix
-  VER=xfce-13.37-64
+  VER=mate-13.37-64
   # empty for a final release for example
   RLZ=$(date -Iminutes)
   #RLZ=
