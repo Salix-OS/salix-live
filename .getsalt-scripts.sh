@@ -4,7 +4,7 @@
 # Used to download the correct version of SaLT Scripts and SaLT.
 
 cd "$(dirname "$0")"
-SALT_SCRIPTS_VER='trunk'
+SALT_SCRIPTS_VER='tags/0.2.0'
 SALT_SCRIPTS_URL="https://salix.svn.sourceforge.net/svnroot/salix/salix-live/SaLT/SaLT-scripts/$SALT_SCRIPTS_VER"
 if [ -d salt-scripts ]; then
   rm -rf salt-scripts || echo "salt-scripts directory cannot be removed, check permissions" >&2
