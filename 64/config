@@ -3,8 +3,8 @@ if [ -z "$DISTRO" ]; then
   DISTRO=salix
   VER=mate-13.37-64
   # empty for a final release for example
-  RLZ=$(date -Iminutes)
-  #RLZ=
+  #RLZ=$(date -Iminutes)
+  RLZ=
   # background image filename
   BGIMAGE_NAME=salix.xcf
   # don't change this unless you sure that the newer version works the same
