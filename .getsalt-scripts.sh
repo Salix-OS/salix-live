@@ -5,7 +5,7 @@
 
 cd "$(dirname "$0")"
 SALT_SCRIPTS_VER='master'
-SALT_SCRIPTS_URL='git@github.com:jrd/SaLT-scripts.git'
+SALT_SCRIPTS_URL='git://github.com/jrd/SaLT-scripts.git'
 if [ -d salt-scripts ]; then
   rm -rf salt-scripts || echo "salt-scripts directory cannot be removed, check permissions" >&2
 fi
