@@ -4,15 +4,18 @@
 # Used to download the correct version of SaLT Scripts and SaLT.
 
 cd "$(dirname "$0")"
-SALT_SCRIPTS_VER='trunk'
-SALT_SCRIPTS_URL="https://salix.svn.sourceforge.net/svnroot/salix/salix-live/SaLT/SaLT-scripts/$SALT_SCRIPTS_VER"
+SALT_SCRIPTS_VER='master'
+SALT_SCRIPTS_URL='git://github.com/jrd/SaLT-scripts.git'
 if [ -d salt-scripts ]; then
   rm -rf salt-scripts || echo "salt-scripts directory cannot be removed, check permissions" >&2
 fi
-svn export "$SALT_SCRIPTS_URL" salt-scripts
+git clone -n "$SALT_SCRIPTS_URL" salt-scripts
 # get SaLT too
 (
   cd salt-scripts
+  # getting the correct revision
+  git checkout "$SALT_SCRIPTS_VER"
+  rm -rf .git
   ./.getsalt.sh
 )
 # install symlinks
