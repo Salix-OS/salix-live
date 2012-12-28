@@ -1,3 +1,4 @@
+atkmm
 avahi
 cairomm
 freerdp
@@ -8,14 +9,12 @@ grub2
 gtkmm
 isomaster
 libdaemon
-libgcrypt
 libsigc++
 libssh
 liveclone
 pangomm
 persistence-wizard
 remmina
-remmina-plugins
 salix-live-installer
 salix-startup-guide
 squashfs-tools

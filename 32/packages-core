@@ -29,9 +29,9 @@ cpio
 cryptsetup
 curl
 cvs
-cxxlibs
 cyrus-sasl
 db44
+db48
 dbus
 dbus-glib
 dbus-python
@@ -48,6 +48,7 @@ dotnew
 dvd+rw-tools
 e2fsprogs
 eject
+engine_pkcs11
 enscript
 etc
 ethtool
@@ -76,11 +77,10 @@ gnutls
 gperf
 gpgme
 gpm
+gptfdisk
 grep
 groff
 gzip
-hal
-hal-info
 hdparm
 htop
 icmpinfo
@@ -94,6 +94,7 @@ isapnptools
 ispell
 jfsutils
 kbd
+kmod
 less
 lha
 libao
@@ -104,6 +105,7 @@ libcddb
 libcdio
 libcgroup
 libelf
+libffi
 libgcrypt
 libgpg-error
 libidn
@@ -113,12 +115,14 @@ libmcrypt
 libmpc
 libnl
 libogg
+libp11
 libpcap
 libpthread-stubs
 libraw1394
 libtermcap
 libtool
 libusb
+libusb-compat
 libvorbis
 libxml2
 libzip
@@ -140,7 +144,6 @@ mercurial
 mhash
 mkinitrd
 mm
-module-init-tools
 most
 mpfr
 nano
@@ -154,19 +157,21 @@ net-tools
 netkit-ftp
 netkit-ntalk
 netkit-routed
+nettle
 network-scripts
 nfs-utils
 ntfs-3g
-ntfsprogs
 ntp
 openldap-client
 openssh
 openssl
 oprofile
+p11-kit
 parted
 patch
 pciutils
 pcmciautils
+pcre
 perl
 pidentd
 pkg-config
@@ -191,6 +196,7 @@ salixtools
 screen
 sdparm
 sed
+sg3_utils
 shadow
 sharutils
 sip
@@ -238,3 +244,5 @@ xfsprogs
 xz
 zlib
 zoo
+gnupg2
+libksba

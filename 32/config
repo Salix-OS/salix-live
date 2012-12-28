@@ -1,10 +1,10 @@
 # vim: set syn=sh:
 if [ -z "$DISTRO" ]; then
   DISTRO=salix
-  VER=xfce-13.37-32
+  VER=xfce-14.0-32
   # empty for a final release for example
-  RLZ=$(date -Iminutes)
-  #RLZ=
+  #RLZ=$(date -Iminutes)
+  RLZ=alpha
   # background image filename
   BGIMAGE_NAME=salix.xcf
   # don't change this unless you sure that the newer version works the same
