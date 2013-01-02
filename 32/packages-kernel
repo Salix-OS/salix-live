@@ -1,1 +1,4 @@
-kernelive
+kernel-huge-smp
+kernel-modules-smp
+kernel-firmware
+kernel-headers
