@@ -11,11 +11,9 @@ isomaster
 libdaemon
 libsigc++
 libssh
-liveclone
 pangomm
 persistence-wizard
 remmina
-salix-live-installer
 salix-startup-guide
 squashfs-tools
 liveenv
