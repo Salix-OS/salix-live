@@ -4,7 +4,7 @@ if [ -z "$DISTRO" ]; then
   VER=xfce-14.0-32
   # empty for a final release for example
   #RLZ=$(date -Iminutes)
-  RLZ=alpha
+  RLZ=alpha2
   # background image filename
   BGIMAGE_NAME=salix.xcf
   # don't change this unless you sure that the newer version works the same
