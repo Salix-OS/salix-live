@@ -7,6 +7,7 @@ if [ -z "$DISTRO" ]; then
   RLZ=alpha2
   # background image filename
   BGIMAGE_NAME=salix.xcf
+  THEME=Shine
   # don't change this unless you sure that the newer version works the same
   FUFSVER=0.4.2
   FUFSURL=http://funionfs.apiou.org/file/funionfs-$FUFSVER.tar.gz
@@ -21,6 +22,7 @@ if [ -z "$DISTRO" ]; then
   export VER
   export RLZ
   export BGIMAGE_NAME
+  export THEME
   export FUFSVER
   export FUFSURL
   export ISO_NAME
