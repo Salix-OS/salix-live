@@ -1,1 +1,4 @@
-kernelive
+kernel-huge
+kernel-modules
+kernel-firmware
+kernel-headers

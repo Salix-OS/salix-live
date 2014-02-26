@@ -1,5 +1,8 @@
-kernel-headers
 ndiswrapper
+bluez-firmware
+ipw2100-fw
+ipw2200-fw
+zd1211-firmware
 rootuser-settings
 user-settings
 user-settings-xfce
