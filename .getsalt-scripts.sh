@@ -1,9 +1,9 @@
 #!/bin/sh
-# vim: set syn=sh et ai sw=2 st=2 ts=2 tw=0:
+# vim: set syn=sh ft=sh et sw=2 sts=2 ts=2 tw=0:
 #
 # Used to download the correct version of SaLT Scripts and SaLT.
 
-cd "$(dirname "$0")"
+cd $(dirname "$0")
 SALT_SCRIPTS_VER="$1"
 SALT_VER="$2"
 if [ -z "$SALT_SCRIPTS_VER" ]; then
