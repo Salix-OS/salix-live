@@ -12,9 +12,10 @@ isomaster
 libdaemon
 libsigc++
 libssh
-liveclone
 pangomm
 persistence-wizard
+pylibsalt
+pyreadpartitions
 remmina
 salix-live-installer
 salix-startup-guide

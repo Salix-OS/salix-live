@@ -1,7 +1,8 @@
 # vim: set syn=sh:
 if [ -z "$DISTRO" ]; then
   DISTRO=salix
-  VER=xfce-14.1-32
+  ARCHNAME=''
+  VER=xfce-14.1
   # empty for a final release for example
   #RLZ=$(date -Iminutes)
   RLZ=alpha1
@@ -12,7 +13,7 @@ if [ -z "$DISTRO" ]; then
   FUFSVER=0.4.2
   FUFSURL=http://funionfs.apiou.org/file/funionfs-$FUFSVER.tar.gz
   # this is atuo-generated for convenience but you can provide another filename
-  ISO_NAME=${DISTRO}live-$VER${RLZ:+-$RLZ}.iso
+  ISO_NAME=${DISTRO}live${ARCHNAME}-$VER${RLZ:+-$RLZ}.iso
   # the package containing the live kernel. Normally you won't need to change this
   KERNELPKGNAME=kernelive
   # unless you have a very good reason, use xz
