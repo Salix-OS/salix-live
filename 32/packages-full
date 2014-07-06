@@ -15,6 +15,7 @@ exiv2
 faac
 faad2
 fftw
+flash-plugin
 foomatic-filters
 galculator
 geany
@@ -26,6 +27,7 @@ gigolo
 gimp
 gst-plugins-base
 gst-plugins-good
+gst-plugins-good1
 gst-python
 gstreamer
 gtk+3
@@ -71,6 +73,7 @@ libvpx
 libwmf
 libxfcegui4
 lilosetup
+madplay
 mate-document-viewer
 mate-file-archiver
 meld

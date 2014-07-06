@@ -21,6 +21,7 @@ bzip2
 ca-certificates
 ccache
 cdparanoia
+cdrdao
 cdrtools
 coreutils
 cpio
@@ -114,6 +115,7 @@ libgpg-error
 libidn
 libieee1284
 libksba
+libmad
 libmcrypt
 libmnl
 libmpc
